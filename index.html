@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="estilos.css"> -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <!-- Header -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+
+                <img src="./images/Mylogo.svg" alt="">
+
+                <a href="#"> ANDERSON </a>
+            </div>
+
+            <!-- class="responsive" -->
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#home" onclick="select()" >HOME</a></li>
+                    <li><a href="#aboutMe" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+        <div class="container-banner">
+            
+            <div class="container-img">
+                <img src="./images/ichigo.png" alt="">
+            </div>
+            
+            <h1>ANDERSON JAVIER</h1>
+            <h2>Software Depeloper</h2>
+
+            <div class="socialMedia">
+                <a href="https://www.facebook.com/anderson.javier.585/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="aboutMe" class="aboutMe">
+        <div class="container-section">
+            <h2>About Me</h2>
+
+            <p><span>Hi!, I'm Anderson Javier</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde deleniti animi praesentium molestias ea repudiandae, commodi quam earum dolore enim dolorum voluptates aliquid a vero explicabo nesciunt illum soluta amet.</p>
+
+            <div class="row">
+
+                <!-- PERSONAL INFORMATION -->
+
+                <div class="col">
+                    <h3>Personal Information</h3>
+    
+                    <ul>
+                        <li>
+                            <strong>Birhday</strong>
+                            29-09-2003
+                        </li>
+    
+                        <li>
+                            <strong>Phone Number</strong>
+                            829-747-1475
+                        </li>
+    
+                        <li>
+                            <strong>Email</strong>
+                            andersonjavier2909@gmail.com
+                        </li>
+    
+                        <li>
+                            <strong>Website</strong>
+                            www.AndersonJav.com
+                        </li>
+    
+                        <li>
+                            <strong>Location</strong>
+                            C/Francisco de Porras, Esq #9, El Almirante, S.D. Este
+                        </li>
+    
+                        <li>
+                            <strong>Job title</strong>
+                            <span>Tecnical Sopport</span> 
+                        </li>
+    
+                    </ul>
+                </div>
+    
+                <!-- INTEREST -->
+                <div class="col">
+                    <h3>Interest</h3>
+    
+                    <div class="container-interest">
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-display"></i>
+                            <span>Front-end</span>
+                        </div>
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-terminal"></i>
+                            <span>Back-end</span>
+                        </div>
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-drum"></i>
+                            <span>Drum</span>
+                        </div>
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Music</span>
+                        </div>
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Game</span>
+                        </div>
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-book-bible"></i>
+                            <span>Bible</span>
+                        </div>
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-person-skating"></i>
+                            <span>Roller Skating</span>
+                        </div>
+    
+                        <div class="interest">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>Anime</span>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+
+        <div class="container-section">
+
+            <h2>SKILLS</h2>
+
+            <div class="row">
+
+                <!-- TECHNICAL SKILLS -->
+                <div class="col">
+
+                    <h3>Technical Skills</h3>
+
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Node</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Express</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Mongo DB</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Firebase</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- PROFESSINAL SKILLS -->
+                <div class="col">
+
+                    <h3>Professional Skills</h3>
+
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Innovative</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- CURRICULUM -->
+    <div id="curriculum" class="curriculum">
+
+
+        <div class="container-section">
+
+            <h2>Curriculum</h2>
+
+            <div class="row">
+
+                <div class="col col-left">
+                    <h3>EDUCATION</h3>  
+
+                    <div class="item left">
+                        <h4>Software Development</h4>    
+                        
+                        <span class="place">ITLA</span>
+                        
+                        <span class="date">2021 - 24</span>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur reprehenderit tempora mollitia, corrupti dolor facere labore aspernatur blanditiis possimus accusantium alias, quis nesciunt ab fugiat magnam ipsum aut minus.</p>
+
+                        <div class="conectorL">
+                            <div class="circleL"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="item left">
+                        <h4>Software Development</h4>    
+                        
+                        <span class="place">ITLA</span>
+                        
+                        <span class="date">2021 - 24</span>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur reprehenderit tempora mollitia, corrupti dolor facere labore aspernatur blanditiis possimus accusantium alias, quis nesciunt ab fugiat magnam ipsum aut minus.</p>
+
+                        <div class="conectorL">
+                            <div class="circleL"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="item left">
+                        <h4>Software Development</h4>    
+                        
+                        <span class="place">ITLA</span>
+                        
+                        <span class="date">2021 - 24</span>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur reprehenderit tempora mollitia, corrupti dolor facere labore aspernatur blanditiis possimus accusantium alias, quis nesciunt ab fugiat magnam ipsum aut minus.</p>
+
+                        <div class="conectorL">
+                            <div class="circleL"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col col-right">
+                    <h3>Work EXPERIENCE</h3>  
+
+                    <div class="item right">
+                        <h4>TECHNICAL SUPPORT</h4>    
+                        
+                        <span class="place">ABIS LLC</span>
+                        
+                        <span class="date">2021 - Currently</span>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur reprehenderit tempora mollitia, corrupti dolor facere labore aspernatur blanditiis possimus accusantium alias, quis nesciunt ab fugiat magnam ipsum aut minus.</p>
+
+                        <div class="conectorR">
+                            <div class="circleR"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="item right">
+                        <h4>TECHNICAL SUPPORT</h4>    
+                        
+                        <span class="place">ABIS LLC</span>
+                        
+                        <span class="date">2021 - Currently</span>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur reprehenderit tempora mollitia, corrupti dolor facere labore aspernatur blanditiis possimus accusantium alias, quis nesciunt ab fugiat magnam ipsum aut minus.</p>
+
+                        <div class="conectorR">
+                            <div class="circleR"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="item right">
+                        <h4>TECHNICAL SUPPORT</h4>    
+                        
+                        <span class="place">ABIS LLC</span>
+                        
+                        <span class="date">2021 - Currently</span>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur reprehenderit tempora mollitia, corrupti dolor facere labore aspernatur blanditiis possimus accusantium alias, quis nesciunt ab fugiat magnam ipsum aut minus.</p>
+
+                        <div class="conectorR">
+                            <div class="circleR"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PORTAFOLIO -->
+    <div id="portafolio" class="portafolio">
+        <div class="container-section">
+            <h2>PORTAFOLIO</h2>
+
+            <div class="gallery">
+                <div class="proyect">
+                    <img src="./images/proyects/weaterapi.png" alt="">
+                    <div class="overlay">
+                        <h3>Weater Api</h3>
+                        <p>Consume Api</p>
+                    </div>
+                </div>
+    
+                <div class="proyect">
+                    <img src="./images/proyects/movieweb.png" alt="">
+                    <div class="overlay">
+                        <h3>Movies Web</h3>
+                        <p>Consume Api</p>
+                    </div>
+                </div>
+    
+                <div class="proyect">
+                    <img src="./images/proyects/Pokeapi.png" alt="">
+                    <div class="overlay">
+                        <h3>Poke Api</h3>
+                        <p>Consume Api</p>
+                    </div>
+                </div>
+    
+                <div class="proyect">
+                    <img src="./images/proyects/anime-collage.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Characters Anime Details</h3>
+                        <p>Front-end Proyect</p>
+                    </div>
+                </div>
+    
+                <div class="proyect">
+                    <img src="./images/proyects/calculator.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Calculator web</h3>
+                        <p>Javascript Proyect</p>
+                    </div>
+                </div>
+    
+                <div class="proyect">
+                    <img src="./images/proyects/geolocation.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Geolocation Api</h3>
+                        <p>Consume Api</p>
+                    </div>
+                </div>
+
+
+                
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- CONTACT -->
+    <div id="contact" class="contact">
+        <div class="container-section">
+            <h2>CONTACT</h2>
+
+            <div class="row">
+
+                <div class="col form">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="email" placeholder="Email Adress" name="" id="">
+                    <input type="text" placeholder="Topic">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Messagge"></textarea>
+
+                    <button>
+                        Submit
+                        <i class="fa-solid fa-paper-plane"></i> 
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+
+                <div class="col map">
+                    <img src="./images/location.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                C/Francisco de Porras, Esq #9, El Almirante, S.D. Este
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                829-747-1475
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                andersonjavier2909@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="footerTop">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="socialMedias">
+            <a href="https://www.facebook.com/anderson.javier.585/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/f07c6bf9e9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
