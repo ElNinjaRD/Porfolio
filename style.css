@@ -347,7 +347,7 @@
 }
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 85%;}
 }
 
 
@@ -360,6 +360,15 @@
     100%{width: 90%;}
 }
 
+.skills .skill .bootstrap{
+    width: 0%;
+    animation: 2s bootstrap forwards;
+}
+@keyframes bootstrap{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
 
 .skills .skill .react{
     width: 0%;
@@ -367,7 +376,7 @@
 }
 @keyframes react{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 75%;}
 }
 
 
@@ -377,7 +386,7 @@
 }
 @keyframes node{
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 80%;}
 }
 
 
@@ -387,7 +396,7 @@
 }
 @keyframes express{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .mongo{
@@ -396,7 +405,7 @@
 }
 @keyframes mongo{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 75%;}
 }
 
 
@@ -407,7 +416,7 @@
 }
 @keyframes firebase{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 80%;}
 }
 
 
@@ -417,7 +426,7 @@
 }
 @keyframes communication{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 95%;}
 }
 
 
@@ -428,7 +437,7 @@
 }
 @keyframes creativity{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 80%;}
 }
 
 
@@ -441,7 +450,7 @@
     100%{width: 90%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .discipline{
     width: 0%;
     animation: 2s proyect forwards;
 }
@@ -456,7 +465,7 @@
 }
 @keyframes innovative{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 85%;}
 }
 
 
